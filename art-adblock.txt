@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: fchW/0FawmpZM87giA4cCw
+! Checksum: XMLPSX4V0GWcRbv52s8mIg
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -187,6 +187,7 @@ tieba.baidu.com##.card_head
 bbs.pinggu.org##.sidenav-img
 live.wallstreetcn.com##.wrapper
 board001.com##DIV#ad_text + * + * + * FONT[size="5"]:first-child
+cnbeta.com###mask
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -244,6 +245,7 @@ board001.com##DIV#ad_text + * + * + * FONT[size="5"]:first-child
 @@||item.jd.hk^$document
 @@||100run.com^$document
 @@||ssl.mail.163.com^$document
+@@||i.gw.com.cn^$document
 ! [广告屏蔽规则]/blocking
 ||i.imgur.com^
 |http://img.taoguba.com.cn/images/jc.gif
