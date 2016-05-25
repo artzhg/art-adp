@@ -1,5 +1,6 @@
 [Adblock Plus 2.0]
-! Art 2016.04.25
+! 20160525
+! Checksum: qdjKm5UMKiR7WsCEQg2tIQ
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -106,9 +107,6 @@ bbs.gfan.com###aimg_7365668
 bbs.gfan.com###aimg_7365669
 bbs.gfan.com###aimg_7365671
 bbs.gfan.com##.Apple-style-span[style="LINE-HEIGHT: 19px; BORDER-COLLAPSE: collapse; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; COLOR: rgb(68,68,68); FONT-SIZE: 12px; -webkit-border-horizontal-spacing: 30px; -webkit-border-vertical-spacing: 30px"]
-stock.stockstar.com###cjrt
-stock.stockstar.com###jctp
-stock.stockstar.com##.tjrj
 news.sina.com.cn###blk_sxad_2
 news.sina.com.cn###blk_hzmt_01
 news.sina.com.cn###blk_xlztup
@@ -184,8 +182,37 @@ tieba.baidu.com##.card_head
 bbs.pinggu.org##.sidenav-img
 live.wallstreetcn.com##.wrapper
 board001.com##DIV#ad_text + * + * + * FONT[size="5"]:first-child
-cnbeta.com###CCfArWhfPJ
 cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-align:center;max-width:980px;overflow:hidden"]
+stock.hexun.com##.gg2.mt8
+stock.hexun.com##.sideList
+stock.hexun.com##.side_logo
+stock.hexun.com###tonglan_1
+stock.hexun.com###rightbtn_1
+stock.hexun.com###tonglan_2
+stock.hexun.com###tonglan_3
+stock.hexun.com###tonglan_4
+stock.hexun.com###tonglan_5
+stock.hexun.com###tonglan_6
+stock.hexun.com##.fl.headerL
+stock.hexun.com##.picTxtNav
+stock.hexun.com###shortcut-2014
+stock.hexun.com##.hx_mjxt.mt5
+stock.hexun.com##.picTxt.mt5.clearfix
+stock.hexun.com##.tzzpt.mt18.clearfix
+stock.hexun.com##.newsList.mt8
+stock.hexun.com##.friendLink.mt30
+stock.hexun.com##.bt_pd_nav.clearfix
+stock.hexun.com##.footerBox_2014
+hk.eastmoney.com###footerNew
+hk.eastmoney.com##DIV[style="line-height: 20px;"]
+hk.eastmoney.com##.spacer8
+hk.eastmoney.com##.lineBox.gray.p8.f14
+hk.eastmoney.com##.lineBox.p8.tc
+hk.eastmoney.com##.DlinkFavorite
+stock.eastmoney.com##.netP
+stock.eastmoney.com##.footCopy
+stock.eastmoney.com##.contact
+stock.eastmoney.com##.footLink.w1000
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -244,6 +271,7 @@ cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-
 @@||100run.com^$document
 @@||ssl.mail.163.com^$document
 @@||i.gw.com.cn^$document
+@@||market.alitrip.com^$document
 ! [广告屏蔽规则]/blocking
 ||i.imgur.com^
 |http://img.taoguba.com.cn/images/jc.gif
@@ -415,3 +443,9 @@ http://fanxing.kugou.com/
 ||google.com/s2/favicons?*
 ||ww1.sinaimg.cn/mw1024/*
 |http://bdimg.share.baidu.com/static/api/js/share.js
+|http://static.cnbetacdn.com/article/*.jpg
+|http://i0.hexunimg.cn/*.jpg
+||px.hexun.com/rest/gs/*
+||zhibiao.hexun.com/xfhinner/interface/*
+||img.hexun.com/2015/sylogo/*
+|http://logo0.tool.hexun.com/*.jpg
