@@ -1,5 +1,5 @@
-! 20160722
 [Adblock Plus 2.0]
+! 20160722
 ! Checksum: ioDk91Z1VmUHAHAOjrybYQ
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
