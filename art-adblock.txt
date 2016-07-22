@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
 ! 20160525
-! Checksum: qdjKm5UMKiR7WsCEQg2tIQ
+[Adblock Plus 2.0]
+! Checksum: ioDk91Z1VmUHAHAOjrybYQ
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -176,7 +176,6 @@ finance.ifeng.com##.bigPic04
 bbs.kafan.cn##.hdc.cl
 bbs.feng.com##.wrap.wea_d_panel_980.a_t
 bbs.pinggu.org###sidelist
-bbs.pinggu.org###sidenav
 tieba.baidu.com###plat_recom_carousel
 tieba.baidu.com##.card_head
 bbs.pinggu.org##.sidenav-img
@@ -443,7 +442,6 @@ http://fanxing.kugou.com/
 ||google.com/s2/favicons?*
 ||ww1.sinaimg.cn/mw1024/*
 |http://bdimg.share.baidu.com/static/api/js/share.js
-|http://static.cnbetacdn.com/article/*.jpg
 |http://i0.hexunimg.cn/*.jpg
 ||px.hexun.com/rest/gs/*
 ||zhibiao.hexun.com/xfhinner/interface/*
