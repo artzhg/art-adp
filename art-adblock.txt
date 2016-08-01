@@ -1,6 +1,5 @@
 [Adblock Plus 2.0]
-!20160730
-! Checksum: w4MojmZfomyvfVDPK/gTtw
+! Checksum: t2kQjg9OjpLvCNyJDfSaeA
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -289,6 +288,29 @@ http://fanxing.kugou.com/
 |http://6286.*
 |http://www.cfi.net.cn/pic/ad_zcnx_*.gif
 ||tb1.bdstatic.com/tb/cms/frs/bg/*
+*.billionfocus.com*
+*.e719.net*
+*.click.gutun.*
+*.simba.taobao.*
+i.mmcdn.cn
+*.betterobot.*
+cell.zhybzp.cn
+w.cnzz.com
+||s.scrqdhg.com^
+||c.wjguc.com^
+||s.ajuhd.com^
+p.pbtxt.com^
+http://m.pbtxt.com/*.html#list
+js.users.51.la^
+http://img.sxwstr.cn/
+*.alimama.*
+s.yy58ju.com
+feng.com##DIV[class^="wep_e_"]
+||feng.com^*/index_treasure/
+||feng.com/aoodoo/
+feng.com##div[class^="wea_d_"]
+feng.com##.wea_d_panel_980
+||lab.feng.com/images_new/ad-
 */114ad/*
 |http://www.dianxinnews.com
 |http://img.qunaso.cn/*
@@ -319,6 +341,12 @@ http://fanxing.kugou.com/
 |http://img.cfi.cn/pic/biaoshi.gif
 |http://img.cfi.cn/pic/gangting.jpg
 ||cfi.net.cn/pic/*
+||cell.zhybzp.cn/?*
+||s.scrqdhg.com^
+||s.ajuhd.com^
+|http://m.pbtxt.com/*.html#list
+||p.pbtxt.com^
+|http://img.sxwstr.cn/
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -396,12 +424,22 @@ http://fanxing.kugou.com/
 ##span[id^=ads_],div[id^=ads_]
 ##td[id*=banner]
 ##td[id^=banner]
-! [mobile]
+! [m]
 *.billionfocus.com*
 *.e719.net*
 *.click.gutun.*
 *.simba.taobao.*
 i.mmcdn.cn
+*.betterobot.*
+cell.zhybzp.cn
+w.cnzz.com
+||s.scrqdhg.com^
+||c.wjguc.com^
+||s.ajuhd.com^
+p.pbtxt.com^
+http://m.pbtxt.com/*.html#list
+js.users.51.la^
+http://img.sxwstr.cn/
 *.alimama.*
 s.yy58ju.com
 feng.com##DIV[class^="wep_e_"]
@@ -410,3 +448,6 @@ feng.com##DIV[class^="wep_e_"]
 feng.com##div[class^="wea_d_"]
 feng.com##.wea_d_panel_980
 ||lab.feng.com/images_new/ad-
+*/114ad/*
+|http://www.dianxinnews.com
+|http://img.qunaso.cn/*
