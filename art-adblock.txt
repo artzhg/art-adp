@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: t2kQjg9OjpLvCNyJDfSaeA
+! Checksum: XJH8Egkj/rKlI5+BbSDiRA
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -24,7 +24,6 @@ bg.panlv.net###PanlvFooter
 panlv.net##DIV[style="margin:0 auto;width:960px;height:90px;overflow:hidden;"]
 cfi.net.cn##TABLE[width="760"]
 cfi.net.cn##TABLE[bgcolor="white"]
-cfi.net.cn##TABLE[width="100%"]
 taoguba.com.cn###ad_tgb_list
 taoguba.com.cn###wrap_footer
 eastmoney.com##.Footer
@@ -195,6 +194,7 @@ topbester.com##HTML[lang="en"]
 cfi.net.cn##TD[style="text-align:left;width:30%;color:rgb(100,100,100);line-height:20px"]
 news.sina.com.cn###blk_ATopTxtT_01
 news.sina.com.cn###HouseCityAdT2
+cfi.net.cn##DIV[style="font-size:9pt;line-height:13pt"]
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -340,13 +340,13 @@ feng.com##.wea_d_panel_980
 |http://img.cfi.cn/pic/icp.jpg
 |http://img.cfi.cn/pic/biaoshi.gif
 |http://img.cfi.cn/pic/gangting.jpg
-||cfi.net.cn/pic/*
 ||cell.zhybzp.cn/?*
 ||s.scrqdhg.com^
 ||s.ajuhd.com^
 |http://m.pbtxt.com/*.html#list
 ||p.pbtxt.com^
 |http://img.sxwstr.cn/
+|http://www.cfi.net.cn/pic/cfi2004.gif
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -426,6 +426,7 @@ feng.com##.wea_d_panel_980
 ##td[id^=banner]
 ! [m]
 *.billionfocus.com*
+tieba.baidu.com##.tb-multi-ad-wrap.j_click_stats
 *.e719.net*
 *.click.gutun.*
 *.simba.taobao.*
