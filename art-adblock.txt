@@ -1,5 +1,5 @@
-[Adblock Plus 2.0]
-! Checksum: XJH8Egkj/rKlI5+BbSDiRA
+[Adblock Plus 2.1]
+! Checksum: tLVRUcRThQhrl1KTNeDbMQ
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -399,6 +399,314 @@ feng.com##.wea_d_panel_980
 @@||ssl.mail.163.com^$document
 @@||i.gw.com.cn^$document
 @@||market.alitrip.com^$document
+! [Simple List]
+!
+! License: MIT
+!
+!-- Build at Fri Jul 24 17:53:11 GMT 2015
+! ----- Rule: ad-filehost.txt
+!-- 51gugu
+/popwin^
+!-- Mega.co.nz
+mega.co.nz#@#.ads
+mega.co.nz##.ads-left-block
+mega.co.nz##.ads-right-block
+!-- 一木禾
+.com/n_ad
+yimuhe.com##:not(#banner)>[style^="height"]
+yimuhe.com##.mid
+!-- sudupan.com
+sudupan.com###xzfile span:last-child
+||sudupan.com/sudupan.js
+sudupan.com###sdpggts
+!-- 119g
+||d.119g.com/fanwan/*
+!-- 乐盘
+.cc/ads/
+||lepan.cc/online/
+lepan.cc##.ad
+lepan.cc##.talk_show>a
+lepan.cc##.content_r
+lepan.cc###code_box
+lepan.cc##.talk_show>:not(:last-child)
+!-- 千军万马
+||7958.com/api/ad/
+||qjwm.com/api/ad/
+.com/floatad.js
+7958.com###layer_Share
+7958.com##.Smohan_Layer_Shade
+!7958.com##.xzdz_3
+7958.com##.pl_1
+7958.com###codebox
+!-- 2kuai
+2kuai.com##div[style*="height"]:not([id])
+2kuai.com##.logo > .desktop
+!-- 9pan
+9pan.net##.logo
+!-- 1wp.me
+1wp.me##.link
+1wp.me###down_tip
+!-- vdisk
+||log.vdisk.cn^
+vdisk.cn###loadingbox
+vdisk.cn###yanzhengbox
+vdisk.cn###yzmbox
+vdisk.cn##div[style^="position"]
+vdisk.cn##div[style^="height"]
+vdisk.cn###getbox>.btn:first-child
+!-- 城通
+400gb.com,bego.cc##.downpage_r
+400gb.com,bego.cc##.downpage_l>div:not(:nth-child(2)):not(:nth-child(1))
+!-- howfile
+howfile.com##.content_body>:not(.contentBody_simple)
+howfile.com##.row2_right
+howfile.com###downloadtable>tbody>tr:nth-child(2)
+!||hfimg.yfdisk.com^$third-party
+||imgbus.com/doimg/
+!-- vvpan
+vvpan.com##body>.ad
+vvpan.com##body>div[style^="width"]
+!-- 77pan
+77pan.cc##.circle_box>:not([class])
+! ----- Rule: ad-hide-collection.txt
+!-- 豆瓣电台
+douban.fm##.ch-list-wrapper>.chl_section:last-child
+!-- 忘了哪看到的了
+##.DownPageAD
+/AShow.aspx^
+!-- 腾讯微博转播按钮
+###tipsWBzf
+! ----- Rule: ad-servers.txt
+!-- 广告联盟
+||taotu001.com^
+||rsccs.com^
+||dianxin.com^
+||union55.com^
+||7cip.com^
+||bcbj100.com^
+||f8272.com^
+||tou100.com^
+||j.ihualun.com^
+||tanx.com^
+||252d.com^
+||6dad.com^
+||miaozhen.com^
+||qiyou.com^
+||yigao.com^
+||adpush.cn^
+||unionsky.cn^
+||unionsky2.cn^
+||unionsky3.cn^
+||unionsky4.cn^
+||unionsky5.cn^
+||dushimj.com^
+||doubleclick.net^
+||brand.sogou.com^
+||1688988.com^
+||3393.com^
+||xcy8.com^
+||inte.sogou.com^
+||irs01.com^
+||irs01.net^
+||whoclick.cn^
+||yongv.com^
+||sharele.cn^
+||o091i.com^
+||idqqimg.com^
+||6.cn^$script,third-party
+||at918.com^
+||wit.qq.com^
+||okokw.com^
+||kanzhuwo.com^
+||1lo0.net^
+||hz3137.com^
+||cbsi.com.cn^
+||xcar.com.cn^
+||tukj.net^
+||unionbig.com^
+||tianjimedia.com^
+||366safego.com^
+||keyrun.cn^
+||onetad.com^
+||51yes.com^
+||70e.com^
+||suobianyu.com^
+||ku63.com^
+||sphwq.net^
+||ads80.com^
+||wqsph.net^
+||egooad.com^
+||a3p4.net^
+||googlesyndication.com^
+||tv002.com^
+||fxxgw.com^
+||adcash.com^
+||gaoduan.cc^
+||cpro.baidustatic.com^
+||images.sohu.com/cs/jsfile/js/c.js^
+||cciuop.com^
+||rbc.cn^
+||lxting.com^
+!-- 腾讯乱七八糟子站
+||isdspeed.qq.com^
+||b.qq.com^
+||combo.qq.com^
+||sns.qzone.qq.com^$third-party
+!-- 数据统计
+||51.la^
+||qushimeiti.com^
+||linezing.com^
+||tajs.qq.com^
+||analytics-union.xunlei.com^
+||stat.5sing.kugou.com^
+||kutongji.com^
+||jiathis.com^
+||stat.5sing.kugou.com^
+||cnzz.net^
+||cnzz.com^
+! ----- Rule: com.baidu.any.txt
+!-- 贴吧补充 (元素隐藏)
+tieba.baidu.com##.u_appcenterEntrance
+tieba.baidu.com##.lot_wrap
+tieba.baidu.com###game_rank
+tieba.baidu.com##.tbui_fbar_game
+tieba.baidu.com##.u_tshow
+tieba.baidu.com##.game_frs_in_head
+tieba.baidu.com###guide_fc
+tieba.baidu.com###union_mod
+tieba.baidu.com##.tieba_notice
+tieba.baidu.com##.d_nameplate
+tieba.baidu.com##.j_navtab_game
+tieba.baidu.com##.icon_zhuanpan
+tieba.baidu.com##.game_spread_thread
+tieba.baidu.com##.download.mobile_res
+tieba.baidu.com###j_ten_years
+tieba.baidu.com##[class^="hgame_"]
+tieba.baidu.com##.pb_lecai_iframe
+tieba.baidu.com##.lzl_panel_wrapper p
+tieba.baidu.com##.pc2client
+tieba.baidu.com##.tb_poster_placeholder
+tieba.baidu.com##.share_btn_wrapper
+tieba.baidu.com##.p_props_tail
+tieba.baidu.com##.poster_rewards
+tieba.baidu.com###poster_rewards_detail
+tieba.baidu.com###poster_rewards_disabled
+tieba.baidu.com##.save_face_bg
+tieba.baidu.com##.profile_bottom
+tieba.baidu.com##.tbmall_score_wrapper>div:not(.online_time).spreadad
+tieba.baidu.com##.game_frs_step1
+tieba.baidu.com##.BAIDU_CLB_AD
+tieba.baidu.com##.dasense
+tieba.baidu.com##.u9_head
+tieba.baidu.com###sofa_post
+tieba.baidu.com##.banner_post
+tieba.baidu.com###pb_adbanner
+tieba.baidu.com##.tb_poster_placeholder
+tieba.baidu.com##.edui-btn-voice
+tieba.baidu.com##.j_voice_ad_gif
+tieba.baidu.com##.lzl_panel_voice
+tieba.baidu.com##.poster_head_surveillance
+tieba.baidu.com##.lzl_panel_wrapper > tbody > tr > td:first-child > p
+tieba.baidu.com##.doupiao_offline
+tieba.baidu.com##.fMember_cnt
+tieba.baidu.com##.u_tshow
+tieba.baidu.com##.u_tbmall
+tieba.baidu.com##.u_app
+tieba.baidu.com##.u_wallet
+tieba.baidu.com##.u_xiu8
+tieba.baidu.com##.u_mytbmall
+tieba.baidu.com##.u_joinvip
+tieba.baidu.com##.u_baiduPrivilege
+tieba.baidu.com###pop_frame
+tieba.baidu.com##.add_guessing_btn
+tieba.baidu.com##.thread_recommend
+tieba.baidu.com###__bdyx_tips
+tieba.baidu.com###__bdyx_tips_icon
+tieba.baidu.com###tshow_out_date_warn
+tieba.baidu.com###selectsearch-icon
+!-- 贴吧游戏
+tieba.baidu.com##.game_tab
+tieba.baidu.com##.game_content
+!-- 贴吧推广
+!tieba.baidu.com##.j_thread_list[data-field*='"author_name":"\\u6e38\\u620f\\u5c0f\\u8d34"']
+tieba.baidu.com##.BAIDU_CLB_AD
+||img.baidu.com/hunter*
+||static.tieba.baidu.com/tb/static-common/js/pic_share/*
+||static.tieba.baidu.com/tb/static-pb/component/meizhi_pb_vote/*
+/app/pop/bws/popup*
+/f/urlcheck?*
+||tb1.bdstatic.com/tb/static-props/component/guide/guide.js
+!-- |http://tb1.bdstatic.com/tb/_/magic_props_92f9e90.js
+!-- 沙发你妹夫
+tieba.baidu.com###sofa_post
+tieba.baidu.com##.cont_sign_banner
+/tb/static-common/img/bdshare/*
+!-- ChinaList(原) 自带的
+||m.tiebaimg.com/timg?wapp^*imgtype=0$image
+||imgsrc.baidu.com/tieba/pic/item/$image
+tieba.baidu.com##.l_banner
+tieba.baidu.com##.banner_post
+tieba.baidu.com###search_button.search_button
+tieba.baidu.com##[id^="game_couplet_pb_"]
+!-- 無用功能
+tieba.baidu.com##.tbui_fbar_props
+tieba.baidu.com##.tbui_fbar_tsukkomi
+tieba.baidu.com##.tbui_fbar_share
+tieba.baidu.com##.poster_head_surveillance
+tieba.baidu.com##.p_mall_tail
+tieba.baidu.com###bdshare
+tieba.baidu.com###balv_mod>.ui_bubble_wrap
+tieba.baidu.com##.sign_title_text_bright
+tieba.baidu.com##.pre_icon_wrap
+!-- 百度晕
+pan.baidu.com,yun.baidu.com##.newhand-tips-dialog
+pan.baidu.com,yun.baidu.com##[data-key="AD"]
+pan.baidu.com,yun.baidu.com###share_aside>*:not(dl.property-list)
+!-- 加速度娘盘访问速度, 屏蔽非必须请求 √
+!||pan.baidu.com/disk/cmsdata?*
+||pan.baidu.com/notice/*
+!||pan.baidu.com/mis/dtcount?*
+!||pan.baidu.com/share/autoincre?*
+!-- ||pan.baidu.com/pcloud/*
+!||pan.baidu.com/share/hotrec?*
+!||pan.baidu.com/share/docrec?*
+||pan.baidu.com/api/analytics?*
+!-- 求优化 感觉会拖慢速度
+!-- /monitor.jpg?*
+!-- 百度分享
+||share.baidu.com^
+!-- 百度广告投放、统计
+||cb.baidu.com^
+||cbjs.baidu.com^
+||pos.baidu.com^
+||cpro.baidu.com^
+||cpro.baidustatic.com^
+||dup.baidustatic.com^
+||hm.baidu.com^
+||nsclick.baidu.com^
+||eclick.baidu.com^
+! ----- Rule: com.qidian.txt
+!-- 起点中文
+||8x.sdo.com^
+||bf.snyu.sdo.com^
+||ipic.staticsdo.com^
+||script.cmfu.com^
+||union.rising.com.cn^
+||www.qidian.com/JavaScript/wxcaijicom.js
+||www.qidian.com/javascript/_QIDIAN_.js
+||www.qidian.com/qidiandefault.htm
+qidian.com##.friendly_link
+qidian.com###down_3g_20130621
+! ----- Rule: random.txt
+!-- random.txt
+!-- 懒得分类的列表
+||m.pc6.com/js/sj-soft.js
+||yesky.com/jkjs/imp-xz.htm
+||icon.zol-img.com.cn/public/js/*
+||huacolor.com/daocaoren/*
+||huacolor.com/wenzi/*
+!-- 迅雷
+||pstatic.xunlei.com^
 ! [TEST元素隐藏]
 ##[name="ZyadsFlashAd"]
 ##[src="http://images.webmasterhome.cn/aimg/*"]
@@ -426,7 +734,6 @@ feng.com##.wea_d_panel_980
 ##td[id^=banner]
 ! [m]
 *.billionfocus.com*
-tieba.baidu.com##.tb-multi-ad-wrap.j_click_stats
 *.e719.net*
 *.click.gutun.*
 *.simba.taobao.*
