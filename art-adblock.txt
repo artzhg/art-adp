@@ -1,5 +1,5 @@
 [Adblock Plus 2.1]
-! Checksum: tLVRUcRThQhrl1KTNeDbMQ
+! Checksum: 3++A30Fk+AW0uzm48HjVjg
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -748,6 +748,8 @@ p.pbtxt.com^
 http://m.pbtxt.com/*.html#list
 js.users.51.la^
 http://img.sxwstr.cn/
+*.mkschina.*
+||*.xxhrd.com^
 *.alimama.*
 s.yy58ju.com
 feng.com##DIV[class^="wep_e_"]
