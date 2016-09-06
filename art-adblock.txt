@@ -1,5 +1,5 @@
 [Adblock Plus 2.1]
-! Checksum: 3++A30Fk+AW0uzm48HjVjg
+! Checksum: nq3r9RgzOfByDJ8HNKBcdQ
 ! [元素隐藏规则]/elemhide
 bbs.pinggu.org##IMG[src="static/image/common/logo.gif"]
 bbs.pinggu.org##IMG[src="static/new/kctj/kechengtuijian_small.gif"]
@@ -195,6 +195,11 @@ cfi.net.cn##TD[style="text-align:left;width:30%;color:rgb(100,100,100);line-heig
 news.sina.com.cn###blk_ATopTxtT_01
 news.sina.com.cn###HouseCityAdT2
 cfi.net.cn##DIV[style="font-size:9pt;line-height:13pt"]
+55188.com###shortcut
+quote.eastmoney.com##.footer2016
+pedaily.cn##.float_box
+pedaily.cn##[id*="ad_*"]
+pedaily.cn##.adver_show
 ! [广告屏蔽规则]/blocking
 |http://img.taoguba.com.cn/images/jc.gif
 |http://img.taoguba.com.cn/images/bjt.gif
@@ -347,6 +352,14 @@ feng.com##.wea_d_panel_980
 ||p.pbtxt.com^
 |http://img.sxwstr.cn/
 |http://www.cfi.net.cn/pic/cfi2004.gif
+|http://www.55188.com/images/avatars/noavatar.gif
+|http://www.55188.com/images/app_sm.gif
+|http://www.55188.com/customavatars/
+|http://www.55188.com/images/wx_lixiang.png
+|http://g1.dfcfw.com/g2/*.png
+|http://g1.dfcfw.com/g2/*.jpg
+|http://pic.pedaily.cn/201608/banner/*.jpg
+||static.pedaily.cn/images/*
 ! [例外规则]/whitelist
 ~stockstar.cn,~stockstar.com##.adlist
 @@||ibsbjstar.ccb.com.cn^$document
@@ -399,6 +412,7 @@ feng.com##.wea_d_panel_980
 @@||ssl.mail.163.com^$document
 @@||i.gw.com.cn^$document
 @@||market.alitrip.com^$document
+@@||189.cn^$document
 ! [Simple List]
 !
 ! License: MIT
@@ -749,7 +763,7 @@ http://m.pbtxt.com/*.html#list
 js.users.51.la^
 http://img.sxwstr.cn/
 *.mkschina.*
-||*.xxhrd.com^
+*.xxhrd.com*
 *.alimama.*
 s.yy58ju.com
 feng.com##DIV[class^="wep_e_"]
